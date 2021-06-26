@@ -1,0 +1,146 @@
+body{
+	background-color: #f4f4f4;
+	padding: 0;
+	margin: 0;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: #143D59;
+	color: white;
+	padding: 10px 0;
+}
+header a{
+	color: white;
+	font-size: 20px;
+}
+header li{
+	display: inline;
+	padding: 0 20px;
+}
+.caption{
+	float: left;
+}
+.caption h2{
+	margin: 6;
+}
+header nav{
+	float: right;
+	margin-top:20px ;
+}
+header .highlight, header .current a{
+	color: #F4B41A;
+	font-weight: bold;
+}
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+#Hero{
+	min-height: 500px;
+	background-image: url("https://itxitpro.com/front/img/web-development-services.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#Hero h1{
+	margin-top: 100px;
+	margin-bottom: 0px;
+	font-size: 75px;
+	color: white;
+	font-family:'Abril Fatface', cursive; 
+}
+#Hero h2{
+	margin-top: 30px;
+	margin-bottom: 0px;
+	font-size: 75px;
+	color: white;
+	font-family:'Abril Fatface', cursive;
+}
+#search{
+	padding: 25px;
+	background:  #143D59;
+}
+#images{
+	margin-top: 50px;
+}
+.box{
+	float: left;
+	text-align: center;
+	padding: 10px;
+	width: 30%;
+}
+#images .box img{
+	width: 150px;
+}
+#images .box h3{
+	font-weight: bolder;
+	font-size: 25px;
+}
+#images .box p{
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+}
+.slogan h2{
+	text-align: center;
+	font-size: 55px;
+	font-weight: bold;
+	color: rgb(4, 158, 55);
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+.slogan p{
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Lobster', cursive;
+}
+#forms h3{
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	font-family: 'Abril Fatface', cursive;
+}
+#my-forms{
+	background-color: bisque;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding: 20px;
+}
+#my-forms .form-group{
+	padding-bottom: 8px;
+	font-size: 20px;
+	color: #F4B41A;
+	font-weight: bold;
+}
+#my-forms label{
+	display: block;
+}
+#slogan2 h2{
+	text-align: center;
+	font-size: 55px;
+	font-weight: bold;
+	color: rgb(4, 158, 55);
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+#video{
+	margin-top: 25px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 30px;
+}
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: white;
+	background-color:#143D59 ;
+	text-align: center;
+}
