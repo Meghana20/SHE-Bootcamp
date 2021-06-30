@@ -150,3 +150,8 @@ footer{
 #Know-more{
 	display: none;
 }
+#name-validation, #email-validation, #batch-validation {
+	color: red;
+	font-size: 14px;
+	display: none;
+}
